@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mysite.com</title>
+    <link rel="stylesheet" href="project1.css">
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            background: url('horse.webp');
+           height: 450px;
+        }
+        .left img{
+            width: 80px;
+        }
+        .left{
+            position: fixed;
+            left: 15px;
+            width: 25%;
+            font-size: 36px;
+            font-style: oblique;
+            
+          /* border: 2px solid rgb(0, 204, 255); */
+        }
+        .right{
+            position:fixed;
+            right: 0px;
+            top: 0px;
+            font-size: 48px;
+            width: 20%;
+            display:inline-block;
+            font-style: oblique;
+          /* border: 2px solid rgb(167, 150, 0); */
+        }
+        .mid{
+            
+            display: block;
+            width: 45%;
+           font-weight: bold;
+           font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            
+            margin:-450px auto;
+            
+          /* border: 2px solid rgba(0, 255, 13, 0.671); */
+          font-size: 20px;
+        }
+        h2{
+            margin: 890px 1px ;
+            font-weight: bold;
+            font-family: 'Indie Flower', cursive;
+           font-size: xx-large;
+           color: aquamarine;
+        }
+        h1{ 
+            margin: -10px;
+            margin-right: 21px;
+            font-family: 'Comforter Brush', cursive;
+            
+            text-align: right;
+            
+             font-size: 45px;
+             color:gold;
+            }
+            
+           .navbar li{
+              
+            margin: 10px;
+            
+               display: inline-block;
+               
+           }
+           .navbar li a{
+            
+             color: rgb(156, 102, 30);
+             text-decoration: none;
+            }
+            .navbar li a:hover{
+                text-decoration: underline;
+                color: grey;
+
+            }
+            .navbar li a.active{
+                color: green;
+                text-decoration: overline;
+            }
+               
+                .btn{
+                    
+                    margin-left: 15px;
+                    background-color:gray;
+                    color: aliceblue;
+                    border: 2px solid black;
+                    border-radius: 13px;
+                    cursor: cell;
+                   font-weight: 200;
+                   font-family: 'Indie Flower', cursive;
+                }
+             .btn:hover{
+                
+                 background-color: rgb(127, 193, 255);
+                 color: black;
+                 text-decoration: underline;
+             }
+                
+
+          .container{
+              border: 5px solid black;
+              width: 25%;
+              height: 250px;
+              margin: 80px 920px;
+              padding: 10px 3px ;
+               border-radius: 10px;
+               font-size: 200;
+               font-weight: bold;
+               font-family: 'Indie Flower', cursive;
+               color: white;
+          }
+
+    
+
+            
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Indie+Flower&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="button">
+            <button class="btn">Contact us </button>
+            <button class="btn">E-mail us </button>
+        </div>
+        <!--left box for logo-->
+        
+        <div class="left">
+            
+          
+          <img src="logo.webp">
+          The Mind Blowing Career:
+        </div>
+        <div class="container">
+            <h1>Join Our Community</h1>
+            <form action="noaction.php">
+                <div class="form">
+                    <input type="text" name="" placeholder="Enter Your Name">
+                    
+                </div>
+                <div class="form">
+                    <input type="text" name="" placeholder="Enter Your Destination">
+
+                    
+                </div>
+            </form>
+            <div class="form">
+               <input type="email" placeholder="abc@gmail.com">
+            </div>
+            <div class="form">
+                <input type="text" name="" placeholder="Enter Your Age">
+                
+            </div>
+            <div class="form" >
+               Gender : Male<input type="radio" name="myname" > Female :<input type="radio" name="myname" >Other :<input type="radio" name="myname">
+                
+            </div>
+              <div class="form">
+                  Are you Eligible :<input type="checkbox">
+
+              </div>
+            <div class="form">
+              Date :<input type="date">
+            </div>
+
+
+            <button class="btn">
+                Submit Now
+            </button>
+            <button class="btn">
+                Reset Now
+            </button>
+        </div>
+        <!--right box for serach buttons-->
+        <div class="right">Emergency Visit :
+           
+        </div>
+        <!--mid box for navigation bar-->
+        <div class="mid">
+            
+             <ul class="navbar">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Visit</a></li>
+            <li><a href="#">About us</a></li>
+           </ul>
+        </div>
+        <h2>#TheTourist</h2>
+
+    </header>
+
+     </body>
+     </html>
